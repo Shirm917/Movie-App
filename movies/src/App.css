@@ -1,0 +1,24 @@
+/* Movie Container */
+.movieContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movieTitle {
+  text-align: center;
+  /* width: 30px; */
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+/* Search */
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
