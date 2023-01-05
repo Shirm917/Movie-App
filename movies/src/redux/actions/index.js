@@ -8,7 +8,7 @@ export const searchMovie = (text) => {
 }
 
 export const fetchMovies = (text) => (dispatch) => {
-    fetch(`http://www.omdbapi.com/?apikey=836f0a94&s=${text}`)
+    fetch(`https://www.omdbapi.com/?apikey=836f0a94&s=${text}`)
     .then(result => result.json())
     .then(data => {
         dispatch({
