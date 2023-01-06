@@ -36,7 +36,7 @@ const Movie = (props) => {
           <h3>About</h3>
           <p>{movie.Plot}</p>
           <button>
-            <a className="link" href={`https://www.imdb.com/title/${movie.imdbID}/`}>
+            <a className="link" href={`https://www.imdb.com/title/${movie.imdbID}/`} target="_blank">
               View on IMDB
             </a>
           </button>
