@@ -11,7 +11,7 @@ class MoviesContainer extends React.Component {
         return (
             <div className="movieContainer">
                 {
-                    this.props.movies.length === 0 ? null
+                    !this.props.movies || this.props.movies.length === 0 ? null
                     :
                     this.props.movies.Search.map(movie => {
                         return (
