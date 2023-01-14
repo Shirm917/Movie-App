@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 
 const MovieCard = (props) => {
     return (
-        <Card sx={{ width: 345 }}>
+        <Card sx={{ width: 335, margin: 1 }}>
             <CardMedia
                 sx={{ height: 500 }}
                 image={props.movie.Poster}
